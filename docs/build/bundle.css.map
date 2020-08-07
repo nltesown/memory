@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  // export let name;\r\n</script>\r\n\r\n<style>\r\n  main {\r\n    display: flex;\r\n    align-items: center; /* flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    justify-content: flex-start;\r\n    align-content: flex-start;\r\n */\r\n\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    max-width: 66.67vh;\r\n    height: 100vh;\r\n  }\r\n\r\n  .board {\r\n    display: grid;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr 1fr 1fr;\r\n    width: 100%;\r\n  }\r\n\r\n  .board > div {\r\n    background-color: #69f;\r\n    outline: solid 1px #40404a;\r\n    cursor: pointer;\r\n  }\r\n\r\n  .board > div:before {\r\n    display: inline-block;\r\n    content: \"\";\r\n    padding-bottom: 100%;\r\n  }\r\n</style>\r\n\r\n<main>\r\n  <div class=\"board\">\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n    <div />\r\n  </div>\r\n</main>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAKE,IAAI,8BAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CAMnB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,CAAC,IAAI,CACd,SAAS,CAAE,OAAO,CAClB,MAAM,CAAE,KAAK,AACf,CAAC,AAED,MAAM,8BAAC,CAAC,AACN,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CACtC,KAAK,CAAE,IAAI,AACb,CAAC,AAED,qBAAM,CAAG,GAAG,eAAC,CAAC,AACZ,gBAAgB,CAAE,IAAI,CACtB,OAAO,CAAE,KAAK,CAAC,GAAG,CAAC,OAAO,CAC1B,MAAM,CAAE,OAAO,AACjB,CAAC,AAED,qBAAM,CAAG,kBAAG,OAAO,AAAC,CAAC,AACnB,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,EAAE,CACX,cAAc,CAAE,IAAI,AACtB,CAAC"
+}
